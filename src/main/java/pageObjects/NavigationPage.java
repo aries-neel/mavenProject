@@ -16,7 +16,7 @@ public class NavigationPage extends FunctionLibrary {
 	
 	public  List<WebElement> getNavigationBar() {
 	     WebElement taskbar=driver.findElement(NavigationBar);
-	     List<WebElement>  taskbar_options =taskbar.findElements(By.tagName("li"));
+	     List<WebElement>  taskbar_options =taskbar.findElements(By.tagName("lo"));
 	      System.out.println(taskbar_options.size());
 	     return taskbar_options ;
 }
